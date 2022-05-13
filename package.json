@@ -1,0 +1,24 @@
+{
+  "name": "m4-entrega-sprint1-BrunoFaria93",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/m4-entrega-sprint1-BrunoFaria93.git",
+  "author": "Bruno Faria <soares_de_faria@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "faker": "5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "nodemon": "^2.0.16",
+    "sucrase": "^3.21.0"
+  }
+}
